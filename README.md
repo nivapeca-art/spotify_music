@@ -44,7 +44,7 @@ python manage.py migrate
 ## correr el servidor
 python manage.py runserver
 
-
+---
 ## 🚀 Endpoints principales
 #Usuarios
 Endpoint	Método	Descripción
@@ -65,7 +65,7 @@ Endpoint	Método	Descripción
 #Spotify real (sin guardar en DB)
 Endpoint	Método	Descripción
 /api/spotify/search/?artist=<nombre>	GET	Busca un artista en Spotify y devuelve su nombre y top tracks. Ejemplo: /api/spotify/search/?artist=Coldplay
-
+---
 ##📂 Estructura del proyecto
 bash
 Copiar código
@@ -90,6 +90,7 @@ spotify_music/
 ├── requirements.txt
 ├── .env.example
 └── README.md
+---
 ##📝 Conclusiones
 ¡Estoy muy contenta con este proyecto! 😄
 
@@ -102,7 +103,7 @@ Aprendí a manejar tokens automáticos de la API y a trabajar con JSON en Django
 Este proyecto es la base para futuras mejoras: filtros de artistas, autenticación de usuarios, integración con otras APIs musicales.
 
 — Nicolle Perez 💚
-
+---
 ##📌 Tecnologías usadas
 Python 3.14
 
@@ -115,6 +116,7 @@ SQLite
 Requests (para llamadas a la API de Spotify)
 
 python-dotenv (para manejar variables de entorno)
+
 
 
 
